@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 244);
+}
+
+.container {
+    margin: 40px 40px 20px 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    /* align-items: baseline; */
+    align-content:space-around;
+    width: 1200px;
+
+}
+
+.left-side {
+    max-width: 400px;
+    margin-right: 40px;
+    position:inherit;
+
+    /* align-content: flex-start; */
+    /* justify-content: flex-start; */
+}
+
+.de, .en {
+    border: 1px black solid;
+    border-radius: 60%;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0px 20px 5px;
+}
+
+.de {
+    background-color: white;
+    color: black;
+}
+
+.en {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 5.5em;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.center {
+    /* display: flex; */
+    width: 500px;
+    align-items: center;
+    margin: 15px 0px 20px 40px;
+    position:inherit;
+}
+
+img {
+   width: 80%;
+    height: 80%;
+    margin-bottom: 40px;
+    /* align-content: center; */
+    /* padding: 50px;
+    margin: 100px; */
+}
+
+.discover-button {
+    margin: 60px 0px 0px 70px;
+}
+
+.discover {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.fa-arrow-down::before {
+    padding-right: 7px;
+    font-size: 20px;
+}
+
+.right-side {
+    display: flex;
+    max-width: 250px;
+    /* margin: 300px 0px 0px 150px; */
+    justify-content: flex-end;
+    align-items: center;
+    position:inherit;
+}
+
+.fa-arrow-right::before {
+    padding-left: 8px;
+}
+
+.reserve {
+    border: 3px black solid;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 12px;
+    width: max-content;
+    height: max-content;
+}
